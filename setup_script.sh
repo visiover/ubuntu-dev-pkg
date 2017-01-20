@@ -52,7 +52,7 @@ sudo apt-get install composer -y
 
 echo "\n\n* Installing Postgres"
 echo "**************************************"
-sudo apt-get install postgres -y
+sudo apt-get install postgresql -y
 
 
 
