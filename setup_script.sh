@@ -42,6 +42,18 @@ echo "\n\n* Installing Php-xdebug"
 echo "**************************************"
 sudo apt-get install git -y
 
+echo "\nPlease insert your git user name: "
+read input_variable
+git config --global user.name "$input_variable"
+
+echo "\nPlease insert your git user mail: "
+read input_variable
+git config --global user.email "$input_variable"
+
+git config --global push.default simple
+
+
+
 
 
 echo "\n\n* Installing Composer"
@@ -53,6 +65,12 @@ sudo apt-get install composer -y
 echo "\n\n* Installing Postgres"
 echo "**************************************"
 sudo apt-get install postgresql -y
+
+
+echo "\n\n** Configure your default postgres user password"
+echo "insert '\password postgres'"
+echo "to exit postgres prompt insert '\q' \n\n"
+sudo -u postgres psql
 
 
 
