@@ -60,6 +60,11 @@ echo "\n\n* Installing Composer"
 echo "**************************************"
 sudo apt-get install composer -y
 
+#install CodeSniffer
+composer global require "squizlabs/php_codesniffer=*"
+
+#install MessDetector
+composer global require "phpmd/phpmd=@stable"
 
 
 echo "\n\n* Installing Postgres"
