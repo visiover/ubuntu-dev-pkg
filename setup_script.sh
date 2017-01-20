@@ -23,7 +23,8 @@ sudo apt-get update -y # To get the latest package lists
 echo "\n\n* Installing Php7.0"
 echo "**************************************"
 sudo apt-get install php7.0  -y
-
+sudo apt-get install php7.0-xml 
+sudo apt-get install php7.0-mbstring
 
 echo "\n\n* Installing Php-xdebug"
 echo "**************************************"
@@ -61,10 +62,11 @@ echo "**************************************"
 sudo apt-get install composer -y
 
 #install CodeSniffer
-composer global require "squizlabs/php_codesniffer=*"
+composer global require squizlabs/php_codesniffer
 
 #install MessDetector
-composer global require "phpmd/phpmd=@stable"
+composer global require phpmd/phpmd
+
 
 
 echo "\n\n* Installing Postgres"
