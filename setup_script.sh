@@ -25,6 +25,9 @@ echo "**************************************"
 sudo apt-get install php7.0  -y
 sudo apt-get install php7.0-xml 
 sudo apt-get install php7.0-mbstring
+sudo apt-get install php-curl
+sudo apt-get install php-pgsql
+sudo apt-get install php-intl
 
 echo "\n\n* Installing Php-xdebug"
 echo "**************************************"
