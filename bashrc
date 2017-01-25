@@ -103,45 +103,8 @@ alias delete-site="sudo sh /home/mamh/PhpstormProjects/ubuntu-dev-pkg/nginx_dele
 
 alias mySSHKey='cat ~/.ssh/id_rsa.pub | xclip -sel clip ; echo "SSH Key Copied to the clipboard"'
 
-alias sshstage1='service mysql stop;  ssh -L 3306:127.0.0.1:3306 web@stage1.fynskemedier.dk'
-alias sshdevelop='service mysql stop; ssh -L 3306:localhost:3306 web@develop.fynskemedier.dk'
-
-alias gotostageKodus2='ssh -A -o SendEnv=LC_WHOAMI web@10.254.0.160'
-alias gotohotel2='ssh -A -o SendEnv=LC_WHOAMI web@jfmhotel2.fynskemedier.dk'
-alias gotoservice1='ssh -A -o SendEnv=LC_WHOAMI web@fmservice1.fynskemedier.dk'
-alias gotodevelop='ssh -A -o SendEnv=LC_WHOAMI web@develop.fynskemedier.dk.'
-alias gotodevelop_old='ssh -A -o SendEnv=LC_WHOAMI web@develop.fyens.dk'
-alias gotolive8='ssh -A -o SendEnv=LC_WHOAMI web@fmweb8.fynskemedier.dk'
-alias gotowebscreen='ssh -A -o SendEnv=LC_WHOAMI  web@jfmwebscreen1.fynskemedier.dk'
-alias gotolive5='ssh -A -o SendEnv=LC_WHOAMI web@fmweb5.fynskemedier.dk'
-alias gotolive4='ssh -A -o SendEnv=LC_WHOAMI web@fmweb4.fynskemedier.dk'
-alias gotolive11='ssh -A -o SendEnv=LC_WHOAMI web@fmweb11.fynskemedier.dk'
-alias gotolive14='ssh -A -o SendEnv=LC_WHOAMI web@fmweb14.fynskemedier.dk'
-alias gotolive3='ssh -A -o SendEnv=LC_WHOAMI web@fmweb3.fynskemedier.dk'
-alias gotostage='ssh -A -o SendEnv=LC_WHOAMI web@fmstage1.fynskemedier.dk'
-alias gotostage2='ssh -A -o SendEnv=LC_WHOAMI web@jfmstage2.fynskemedier.dk'
-alias gototest1='ssh -A -o SendEnv=LC_WHOAMI web@test.fynskemedier.dk'
-alias gototest2='ssh -A -o SendEnv=LC_WHOAMI web@fmtest2.fynskemedier.dk'
-alias gotolumiere='ssh -A -o SendEnv=LC_WHOAMI web@lumiere.digitalkant.dk'
-
-alias mitfyn-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/mitfyn-mamh /home/mamh/mount/develop/mitfyn-mamh/'
-alias mitfyn-mamh_old='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fyens.dk:/var/www/vhosts/mitfyn-mamh /home/mamh/mount/develop/mitfyn-mamh_old/'
-alias fyens-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/fyens-mamh /home/mamh/mount/develop/fyens-mamh/'
-alias fyens2015-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/fyens2015-mamh /home/mamh/mount/develop/fyens2015-mamh/'
-alias tv2oj-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/tv2oj-mamh /home/mamh/mount/develop/tv2oj-mamh/'
-alias tvsyd-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/tvsyd-mamh /home/mamh/mount/develop/tvsyd-mamh/'
-alias tv2lorry-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/tv2lorry-mamh /home/mamh/mount/develop/tv2lorry-mamh/'
-alias sn2014-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/sn2014-mamh /home/mamh/mount/develop/sn2014-mamh/'
-alias vdonline-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/vdonline-mamh /home/mamh/mount/develop/vdonline-mamh/'
-alias folketid-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/folketid-mamh /home/mamh/mount/develop/folketid-mamh/'
-alias ugeavisen-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/ugeavisen-mamh /home/mamh/mount/develop/ugeavisen-mamh/'
-alias fyn-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/fyn-mamh /home/mamh/mount/develop/fyn-mamh/'
-alias tv2fyn-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/tv2fyn-mamh /home/mamh/mount/develop/tv2fyn-mamh/'
-alias jv2014-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/jv2014-mamh /home/mamh/mount/develop/jv2014-mamh/'
-alias fybi-mamh='sshfs -p 22 -o nonempty -o IdentityFile=~/.ssh/id_rsa web@develop.fynskemedier.dk:/home/web/vhosts/fybi-mamh /home/mamh/mount/develop/fybi-mamh/'
-
-
 export LC_WHOAMI='mamh'
+
 #export PATH=~/.config/composer/vendor/bin:$PATH
 
 export GIT_PS1_SHOWDIRTYSTATE=1
