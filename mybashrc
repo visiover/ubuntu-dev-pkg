@@ -100,6 +100,8 @@ alias cls='clear'
 alias dev='cd /home/mamh/PhpstormProjects'
 alias new-site='sudo sh /home/mamh/PhpstormProjects/ubuntu-dev-pkg/nginx_add_site.sh'
 alias delete-site="sudo sh /home/mamh/PhpstormProjects/ubuntu-dev-pkg/nginx_delete_site.sh"
+alias hosts='sudo vim /etc/hosts'
+
 
 alias mySSHKey='cat ~/.ssh/id_rsa.pub | xclip -sel clip ; echo "SSH Key Copied to the clipboard"'
 
