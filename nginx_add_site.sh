@@ -55,3 +55,6 @@ sudo echo "127.0.0.1       $1" >> /etc/hosts
 
 #restart nginx 
 sudo /etc/init.d/nginx restart
+
+#open browser
+sensible-browser $1/
