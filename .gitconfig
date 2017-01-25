@@ -1,0 +1,7 @@
+[user]
+	name = Maher M'Hiri
+	email = mamh@fynskemedier.dk
+[push]
+	default = simple
+[core]
+	excludesfile = /home/mamh/.gitignore_global
