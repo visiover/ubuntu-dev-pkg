@@ -1,0 +1,34 @@
+# install manually
+Phpstorm
+Dropbox
+chrome
+libreoffice
+vpn setup
+skype
+slack
+teamviewr
+uTorrent
+
+# installable via ubuntu_pkgs.sh
+gnome-do
+virtualBox
+gimp
+Ubuntu Cleaner
+vlc
+filezilla
+vim
+htop
+gtk-recordMyDesktop
+redshift
+terminator
+spotify
+sublime text
+vlc
+virtualbox
+Adwaita itheme GTK+ / Unity tweak tool
+indicator-sysmonitor / config : cpu: {cpu} | mem: {mem} | temp:{cputemp}
+Synaptic Package Manager
+
+
+
+Add ssh keys, id_rsa and id_rsa.pub
