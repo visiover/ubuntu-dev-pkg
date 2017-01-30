@@ -29,6 +29,10 @@ sudo apt-get install php-curl
 sudo apt-get install php-pgsql
 sudo apt-get install php-intl
 
+echo "Installing mysql driver"
+sudo apt-get install php7.0-mysql
+
+
 echo "\n\n* Installing Php-xdebug"
 echo "**************************************"
 sudo apt-get install php-xdebug
@@ -94,7 +98,7 @@ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get install nodejs
 
 echo "Installing browser-sync"
-sudo npm install -g browser-sync
+#sudo npm install -g browser-sync
 
 
 
