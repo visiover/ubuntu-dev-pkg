@@ -4,7 +4,7 @@
 xcode-select --install
 
 
-#check if homebrew is installed and is latest
+#check if homebrew is installed and up to date
 if ! type "brew" > /dev/null; then
     #install homebrew
 	echo "\n==> Installing Homebrew...\n"
@@ -50,6 +50,7 @@ CASKS=(
     vlc
     spotify
     dropbox
+    unrarx
     the-unarchiver
     spectacle
     appcleaner
@@ -63,6 +64,7 @@ CASKS=(
     little-snitch
     slack
     unity
+    android-file-transfer
 )
 
 #install all the needed apps
