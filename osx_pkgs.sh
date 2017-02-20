@@ -45,6 +45,7 @@ brew install caskroom/cask/brew-cask
 
 
 CASKS=(
+    istat-menus
     google-chrome
     skype
     vlc
