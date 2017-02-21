@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# Install xCode command line tool
+#TODO: Check if xCode command line tools are installed
 xcode-select --install
 
 
-#check if homebrew is installed and up to date
+# Check if homebrew is installed and up to date
 if ! type "brew" > /dev/null; then
     #install homebrew
 	echo "\n==> Installing Homebrew...\n"
@@ -13,7 +13,7 @@ else
 	echo "\nHomebrew installation found\nUpdating Homebrew "
 	# Make sure we’re using the latest Homebrew.
 	brew update
-	# Upgrade any already-installed formulae.
+	# Upgrade
 	brew upgrade
 fi
 
@@ -36,15 +36,18 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 
-echo "Cleaning up..."
+echo "Cleaning up Homebrew cache ..."
 brew cleanup
 
-#install cask
-echo "\n==> Installing cask...\n" 
-brew install caskroom/cask/brew-cask
+#TODO : check if cask is installed and these command lines are correct
+echo "\n==> Installing Homebrew cask...\n" 
+brew tap caskroom/cask
+brew install brew-cask
+brew tap caskroom/versions
 
 
 CASKS=(
+    sublime-text3
     istat-menus
     google-chrome
     skype
@@ -74,28 +77,30 @@ brew cask install ${CASKS[@]}
 
 
 # Some apps don't have a cask and so still need to be installed by hand. These include:
-#Sublime 2
-#memory clean 2
-#uTorrent
-#Duplicate detective
-#Stellar Phoenix Mac Data Recovery 
-#Traktor DJ
-#Microsoft Office
-#Guidance
+    #Sublime 2
+    #memory clean 2
+    #uTorrent
+    #Duplicate detective
+    #Stellar Phoenix Mac Data Recovery 
+    #Traktor DJ
+    #Microsoft Office
+    #Guidance
 
-
+#install some fonts
 echo "Installing fonts..."
 brew tap caskroom/fonts
+
 FONTS=(
     font-inconsolidata
     font-roboto
     font-clear-sans
 )
+
 brew cask install ${FONTS[@]}
-
-
 
 # cleanup cask cache
 brew cask cleanup
 
+# TODO: Check if the packages have been successfully installed
+#brew cask info pkg-name
 echo "\n\n==> All the packages have been installed :)  \n\n"
