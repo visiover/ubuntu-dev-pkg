@@ -1,5 +1,25 @@
+# My Dot Files  
+## Ubuntu
+* ubuntu packages    
+* Bashrc config  
+* Php dev environement   
+* Nginx Config  
+
+## OsX  
+* Homebrew packages
+* Cask packages
+* my Zsh config
+
+## General dot files
+* Git
+* Browser sync
+* composer
+* Others
+
+
+# Ubuntu
 # Install must have ubuntu packages 
-ubuntu_pkgs.sh will install all the must have ubuntu packages  
+ubuntu_pkgs.sh will install all my must have ubuntu packages.
 sh ubuntu_pkgs.sh  
 
 
