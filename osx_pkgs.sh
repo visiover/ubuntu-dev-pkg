@@ -101,6 +101,8 @@ brew cask install ${FONTS[@]}
 # cleanup cask cache
 brew cask cleanup
 
+# TODO: Write tests
 # TODO: Check if the packages have been successfully installed
+
 #brew cask info pkg-name
 echo "\n\n==> All the packages have been installed :)  \n\n"
