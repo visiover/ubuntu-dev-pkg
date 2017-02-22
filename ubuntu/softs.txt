@@ -1,11 +1,10 @@
-# install manually
+## install manually
 Phpstorm
 Dropbox
 chrome
 libreoffice
-vpn setup
+vpn configuration
 skype
-slack
 teamviewr
 uTorrent
 
@@ -24,6 +23,7 @@ terminator
 spotify
 sublime text
 vlc
+slack
 virtualbox
 Adwaita itheme GTK+ / Unity tweak tool
 indicator-sysmonitor / config : cpu: {cpu} | mem: {mem} | temp:{cputemp}
