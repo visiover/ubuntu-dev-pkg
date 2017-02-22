@@ -13,7 +13,6 @@ Multiple git workflow exisits. Choosing the right git workflow depends on the ty
 * "Anti-Gitflow" workflow
 * Gitlab flow
 * Github workflow
-* Kodus1 workflow
 
 ---
 
@@ -41,11 +40,6 @@ Multiple git workflow exisits. Choosing the right git workflow depends on the ty
 
 * Feature branches are pushed to the central repository.
 
-<!-- footer: Source : www.atlassian.com/git/tutorials/comparing-workflows -->
-
----
-
-# Feature branch workflow
 
 ![feature branch](https://www.atlassian.com/dam/jcr:f78ecc23-1371-4ce9-b2c0-b7a9fe706b21/01.svg "Feature branch workflow")
 
@@ -67,9 +61,6 @@ Multiple git workflow exisits. Choosing the right git workflow depends on the ty
 
 <!-- footer: Source : www.atlassian.com/git/tutorials/comparing-workflows -->
 
----
-
-# Forking workflow
 
 ![forking](https://www.atlassian.com/dam/jcr:5c0941ff-a8b5-435b-a092-2167705f1e97/01.svg "forking")
 
@@ -95,10 +86,6 @@ git flow feature start myFeature
 
 * sourceTree, Tower ... 
 
----
-
-# Gitflow workflow
-
 * Uses two branches to record the history of the project. 
 The **master** branch stores the official release history, 
 and the **develop** branch serves as an integration branch for features.
@@ -106,13 +93,7 @@ and the **develop** branch serves as an integration branch for features.
 * Features only live in the local dev and not in the remote server
 
 
-<!-- footer: Source : http://nvie.com/posts/a-successful-git-branching-model/ -->
-
----
-
-# Gitflow workflow (nvie)
-
-Workflow : http://nvie.com/img/git-model@2x.png
+![gitflow](http://nvie.com/img/git-model@2x.png)
 
 
 <!-- footer: Source:http://nvie.com/posts/a-successful-git-branching-model/ -->
@@ -184,21 +165,3 @@ GitFlow considered harmful:
 ---
 **Git lab flow - Release branches** 
 ![gitlab release](https://about.gitlab.com/images/git_flow/release_branches.png)
-
----
-
-# Kodus1 Workflow
-
-Same as "Anti-git" workflow
-
-[Confluence documentation](https://docs.fynskemedier.dk/display/DD/Workflow#Workflow-CreatingaRelease)
-
----
-
-# Kodus2 Suggestions ?
-
-* kodus1 + Pull requests ?
-* When to tag ? (before deploy?, everytime there is a need)
-* Do we keep release branches ?
-* Develop vs master vs release branches.
-* Git scripts ?
