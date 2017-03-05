@@ -42,12 +42,11 @@ brew cleanup
 #TODO : check if cask is installed and these command lines are correct
 echo "\n==> Installing Homebrew cask...\n" 
 brew tap caskroom/cask
-brew install brew-cask
 brew tap caskroom/versions
 
 
 CASKS=(
-    sublime-text3
+    sublime-text
     istat-menus
     google-chrome
     skype
@@ -64,11 +63,12 @@ CASKS=(
     libreoffice
     filezilla
     skype
-    google-dive
-    little-snitch
+    google-drive
     slack
     unity
     android-file-transfer
+    wireshark
+    marp
 )
 
 #install all the needed apps
@@ -77,7 +77,6 @@ brew cask install ${CASKS[@]}
 
 
 # Some apps don't have a cask and so still need to be installed by hand. These include:
-    #Sublime 2
     #memory clean 2
     #uTorrent
     #Duplicate detective
@@ -105,4 +104,5 @@ brew cask cleanup
 # TODO: Check if the packages have been successfully installed
 
 #brew cask info pkg-name
+brew cask list
 echo "\n\n==> All the packages have been installed :)  \n\n"
