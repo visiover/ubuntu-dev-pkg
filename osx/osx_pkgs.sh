@@ -49,6 +49,7 @@ CASKS=(
     sublime-text
     istat-menus
     google-chrome
+    firefox
     skype
     vlc
     spotify
