@@ -56,6 +56,7 @@ sudo apt-get --assume-yes install network-manager-openconnect network-manager-op
 sudo apt-get --assume-yes install scudcloud
 sudo apt-get --assume-yes install google-chrome-stable
 sudo apt-get --assume-yes install nautilus-dropbox
+sudo apt-get --assume-yes install whois
 
 
 #spotify
