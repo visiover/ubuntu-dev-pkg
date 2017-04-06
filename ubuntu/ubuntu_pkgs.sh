@@ -22,6 +22,8 @@ sudo add-apt-repository ppa:otto-kesselgulasch/gimp -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor -y
 sudo add-apt-repository ppa:rael-gc/scudcloud -y # slack
+sudo add-apt-repository ppa:nilarimogard/webupd8 -y #Pulse Equalizer
+
 
 # slack
 echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
@@ -29,7 +31,6 @@ echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select tr
 
 # update and upgrade all the things
 sudo -- sh -c 'apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-get autoremove -y'
-
 
 
 
@@ -58,6 +59,8 @@ sudo apt-get --assume-yes install google-chrome-stable
 sudo apt-get --assume-yes install nautilus-dropbox
 sudo apt-get --assume-yes install whois
 sudo apt-get --assume-yes install sshfs
+sudo apt-get --assume-yes install pulseaudio-equalizer
+sudo apt-get --assume-yes install obs-studio  #open broadcaster soft
 
 
 #spotify
@@ -79,6 +82,9 @@ check()
 
 echo "\n\n* Installed packages verification"
 echo "**************************************"
+
+check whois
+check sshfs
 check vim
 check htop
 check gnome-do
@@ -97,5 +103,13 @@ check scudcloud
 check google-chrome-stable
 check libreoffice-gnome
 check indicator-sysmonitor
+check gnome-themes-standard
+check scudcloud
+check google-chrome-stable
+check nautilus-dropbox
+check pulseaudio-equalizer
+check obs-studio
+
+
 
 echo "\n"
