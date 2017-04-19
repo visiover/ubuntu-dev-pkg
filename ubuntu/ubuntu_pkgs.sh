@@ -70,6 +70,13 @@ sudo apt-get update -y
 sudo apt-get --assume-yes install spotify-client
 
 
+# Apply Adwaita Theme and icons
+gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"
+gsettings set org.gnome.desktop.interface icon-theme 'Adwaita'
+gsettings set org.gnome.desktop.wm.preferences theme "Adwaita"
+
+
+
 check()
 {
 
