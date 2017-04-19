@@ -72,8 +72,12 @@ sudo apt-get --assume-yes install spotify-client
 
 # Apply Adwaita Theme and icons
 gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"
-gsettings set org.gnome.desktop.interface icon-theme 'Adwaita'
+gsettings set org.gnome.desktop.interface icon-theme-full 'Adwaita'
 gsettings set org.gnome.desktop.wm.preferences theme "Adwaita"
+
+# Apply Mercedes logo wallpaper
+wget http://www.hdwallpaper.nu/wp-content/uploads/2015/12/Mercedes_Logo_5.png -P /home/$USER/Pictures/
+gsettings set org.gnome.desktop.background picture-uri file:////home/$USER/Pictures/Mercedes_Logo_5.png
 
 
 
