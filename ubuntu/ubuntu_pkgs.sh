@@ -70,6 +70,8 @@ sudo apt-get update -y
 sudo apt-get --assume-yes install spotify-client
 
 
+
+
 # Apply Adwaita Theme and icons
 gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"
 gsettings set org.gnome.desktop.interface icon-theme-full 'Adwaita'
@@ -78,6 +80,28 @@ gsettings set org.gnome.desktop.wm.preferences theme "Adwaita"
 # Apply Mercedes logo wallpaper
 wget http://www.hdwallpaper.nu/wp-content/uploads/2015/12/Mercedes_Logo_5.png -P /home/$USER/Pictures/
 gsettings set org.gnome.desktop.background picture-uri file:////home/$USER/Pictures/Mercedes_Logo_5.png
+
+
+# Terminator config
+> $HOME/.config/terminator/config
+echo "[global_config]
+  handle_size = 3
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = \"\"
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.8
+    background_image = None
+    background_type = transparent
+    foreground_color = \"#00ff00\"" >> $HOME/.config/terminator/config
 
 
 
