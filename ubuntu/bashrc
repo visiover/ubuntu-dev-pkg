@@ -94,6 +94,12 @@ alias l='ls -CF'
 
 
 # CUSTOM CONFIG
+alias hosts="sudo vim /etc/hosts"
+alias brc="sudo vim ~/.bashrc"
+alias cr="vendor/bin/codecept run"
+alias sqlc='find . -name ".sql-status.json" -type f -print0 | xargs -0 /bin/rm -f'
+
+
 alias rnx='sudo /etc/init.d/nginx restart'
 alias fpmr='service php7.0-fpm restart'
 alias cls='clear'
@@ -101,6 +107,9 @@ alias dev='cd /home/mamh/PhpstormProjects'
 alias new-site='sudo sh /home/mamh/PhpstormProjects/ubuntu-dev-pkg/nginx_add_site.sh'
 alias delete-site="sudo sh /home/mamh/PhpstormProjects/ubuntu-dev-pkg/nginx_delete_site.sh"
 alias hosts='sudo vim /etc/hosts'
+
+# GIT
+alias gb='git branch -a -v'
 
 
 alias mySSHKey='cat ~/.ssh/id_rsa.pub | xclip -sel clip ; echo "SSH Key Copied to the clipboard"'
