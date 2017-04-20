@@ -31,6 +31,7 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor -y
 sudo add-apt-repository ppa:rael-gc/scudcloud -y # slack
 sudo add-apt-repository ppa:nilarimogard/webupd8 -y #Pulse Equalizer
+udo add-apt-repository ppa:kdenlive/kdenlive-stable -y # Kdenlive video editor
 
 
 # slack
@@ -68,7 +69,8 @@ sudo apt-get --assume-yes install nautilus-dropbox
 sudo apt-get --assume-yes install whois
 sudo apt-get --assume-yes install sshfs
 sudo apt-get --assume-yes install pulseaudio-equalizer
-sudo apt-get --assume-yes install obs-studio  #open broadcaster soft
+sudo apt-get --assume-yes install obs-studio  #open broadcaster soft live streaming
+sudo apt-get --assume-yes install kdenlive # video editor
 
 
 #spotify
