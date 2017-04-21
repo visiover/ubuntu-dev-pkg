@@ -154,7 +154,7 @@ check google-chrome-stable
 check nautilus-dropbox
 check pulseaudio-equalizer
 check obs-studio
-
+check kdenlive
 
 
 echo "\n"
