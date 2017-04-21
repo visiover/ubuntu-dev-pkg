@@ -150,7 +150,6 @@ check libreoffice-gnome
 check indicator-sysmonitor
 check gnome-themes-standard
 check scudcloud
-check google-chrome-stable
 check nautilus-dropbox
 check pulseaudio-equalizer
 check obs-studio
