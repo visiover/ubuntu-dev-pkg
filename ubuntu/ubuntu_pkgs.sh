@@ -2,7 +2,7 @@
 
 ## This is a very simple dumb bulk packages setup script
 
-#Remember to install manually
+# Note for self: Remember to manually install
 	# Phpstorm
 	# skype
 	# teamviewr
@@ -69,7 +69,7 @@ sudo apt-get --assume-yes install nautilus-dropbox
 sudo apt-get --assume-yes install whois
 sudo apt-get --assume-yes install sshfs
 sudo apt-get --assume-yes install pulseaudio-equalizer
-sudo apt-get --assume-yes install obs-studio  #open broadcaster soft live streaming
+sudo apt-get --assume-yes install obs-studio  # open broadcaster soft live streaming
 sudo apt-get --assume-yes install kdenlive # video editor
 
 
@@ -81,13 +81,13 @@ sudo apt-get --assume-yes install spotify-client
 
 
 
-
 # Apply Adwaita Theme and icons
 gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"
 gsettings set org.gnome.desktop.interface icon-theme-full 'Adwaita'
 gsettings set org.gnome.desktop.wm.preferences theme "Adwaita"
 
-# Apply Mercedes logo wallpaper
+
+# Get and Apply Mercedes logo wallpaper
 wget http://www.hdwallpaper.nu/wp-content/uploads/2015/12/Mercedes_Logo_5.png -P /home/$USER/Pictures/
 gsettings set org.gnome.desktop.background picture-uri file:////home/$USER/Pictures/Mercedes_Logo_5.png
 
