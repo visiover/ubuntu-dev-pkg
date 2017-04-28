@@ -49,9 +49,11 @@ CASKS=(
     sublime-text
     istat-menus
     google-chrome
+    google-drive
     firefox
     skype
     vlc
+    utorrent
     spotify
     dropbox
     unrarx
@@ -70,6 +72,7 @@ CASKS=(
     android-file-transfer
     wireshark
     marp
+    ccleaner
 )
 
 #install all the needed apps
