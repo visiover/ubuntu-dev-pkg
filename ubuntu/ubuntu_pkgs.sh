@@ -1,5 +1,12 @@
 #!/bin/sh
 
+
+
+###### TODO : fix chrome, obs studio , add laucnher autohide config
+
+
+
+
 ## This is a very simple dumb bulk packages setup script
 
 # Note for self: Remember to manually install
@@ -91,6 +98,9 @@ gsettings set org.gnome.desktop.wm.preferences theme "Adwaita"
 wget http://www.hdwallpaper.nu/wp-content/uploads/2015/12/Mercedes_Logo_5.png -P /home/$USER/Pictures/
 gsettings set org.gnome.desktop.background picture-uri file:////home/$USER/Pictures/Mercedes_Logo_5.png
 
+
+# Create Terminator config file
+mkdir -p $HOME/.config/terminator
 
 # Terminator config
 > $HOME/.config/terminator/config
