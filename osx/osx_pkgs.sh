@@ -103,6 +103,7 @@ brew cask install ${FONTS[@]}
 
 # cleanup cask cache
 brew cask cleanup
+brew cleanup
 
 # TODO: Write tests
 # TODO: Check if the packages have been successfully installed
