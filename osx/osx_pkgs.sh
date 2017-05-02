@@ -109,6 +109,11 @@ brew cleanup
 # TODO: Write tests
 # TODO: Check if the packages have been successfully installed
 
+
+# Autohide dock without a delay
+defaults write com.apple.dock autohide-delay -float 0; killall Dock;
+
+
 #brew cask info pkg-name
 brew cask list
 echo "\n\n==> All the packages have been installed :)  \n\n"
