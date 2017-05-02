@@ -73,6 +73,7 @@ CASKS=(
     wireshark
     marp
     ccleaner
+    flux
 )
 
 #install all the needed apps
