@@ -78,7 +78,7 @@ sudo apt-get --assume-yes install sshfs
 sudo apt-get --assume-yes install pulseaudio-equalizer
 sudo apt-get --assume-yes install obs-studio  # open broadcaster soft live streaming
 sudo apt-get --assume-yes install kdenlive # video editor
-
+sudo apt-get --assume-yes install apcalc # Cosole calculator
 
 #spotify
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
