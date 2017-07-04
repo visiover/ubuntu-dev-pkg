@@ -95,8 +95,8 @@ gsettings set org.gnome.desktop.wm.preferences theme "Adwaita"
 
 
 # Get and Apply Mercedes logo wallpaper
-wget http://www.hdwallpaper.nu/wp-content/uploads/2015/12/Mercedes_Logo_5.png -P /home/$USER/Pictures/
-gsettings set org.gnome.desktop.background picture-uri file:////home/$USER/Pictures/Mercedes_Logo_5.png
+wget http://wallpaperswide.com/download/programming-wallpaper-1680x1050.jpg -P /home/$USER/Pictures/
+gsettings set org.gnome.desktop.background picture-uri file:////home/$USER/Pictures/programming-wallpaper-1680x1050.jpg
 
 
 # Create Terminator config file
