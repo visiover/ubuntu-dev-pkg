@@ -7,7 +7,7 @@ echo "\nPlease insert your git user name: "
 read input_variable
 git config --global user.name "$input_variable"
 
-echo "\nPlease insert your git user mail: "
+echo "\nPlease insert your git user email: "
 read input_variable
 git config --global user.email "$input_variable"
 

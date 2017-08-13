@@ -1,0 +1,26 @@
+# Homebrew PHP CLI
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+
+# bash autocompletion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+. $(brew --prefix)/etc/bash_completion
+fi
+
+# Aliases
+alias ls='ls -GFh'
+alias ll='ls -l'
+alias dev='cd ~/Documents/dev/'
+
+alias brc='sudo vim ~/.bash_profile'
+alias vol='open /Volumes'
+
+# Add git to terminal
+source /usr/local/etc/bash_completion.d/git-completion.bash
+
+export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+export TERM=xterm-256color

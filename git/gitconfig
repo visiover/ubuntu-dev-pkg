@@ -1,7 +1,7 @@
 [user]
-	name = Maher M'Hiri
-	email = mamh@fynskemedier.dk
+	name = YOUR NAME
+	email = YOUR EMAIL
 [push]
 	default = simple
 [core]
-	excludesfile = /home/mamh/.gitignore_global
+	excludesfile = path to .gitignore_global
