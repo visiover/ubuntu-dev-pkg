@@ -3,7 +3,7 @@
 
 
 ###### TODO : fix chrome, obs studio , add laucnher autohide config
-
+#TODO: Add sky (skype for business for linux)
 
 
 
