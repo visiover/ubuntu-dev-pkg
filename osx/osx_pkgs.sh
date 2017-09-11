@@ -74,6 +74,7 @@ CASKS=(
     marp
     ccleaner
     flux
+    sequel-pro
 )
 
 #install all the needed apps
