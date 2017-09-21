@@ -73,8 +73,8 @@ CASKS=(
     wireshark
     marp
     ccleaner
-    flux
     sequel-pro
+    virtualbox
 )
 
 #install all the needed apps
